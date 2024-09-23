@@ -9,16 +9,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
+				"name": "setValue",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getValue",
+				"name": "value",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -27,19 +29,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "setValue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -71,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/helloWord.sol": {
-			"keccak256": "0x40bafa56737e11f60b1e6637c020e20e71c171c2d6b7af5ac0f973e83bbec2aa",
+			"keccak256": "0x804e614e8c52e1e80b3e9cb025ef5e9ff779563b3db70c70e1abd5f35ffcf486",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ffdb5b4675fbe6515675b041f125645296cf935f8ae3a2cff02f3e3a27a1a60a",
-				"dweb:/ipfs/QmfV7yjPQdkbnAxzEvX1UEauoUoqESWR5dfLLYRCrXcfrL"
+				"bzz-raw://a566701fbfadf0ae0ba1b225230adb86274bbe764d40b6430543148c6e9660e3",
+				"dweb:/ipfs/QmWLgqVYSv46nzEJ23zwz8NwSjKyWweMHWVmZsa1isRAnZ"
 			]
 		}
 	},

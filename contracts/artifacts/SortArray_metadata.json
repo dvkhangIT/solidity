@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sort",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SortArray.sol": "SortArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SortArray.sol": {
+			"keccak256": "0x60c987ae6d6a66e271efe18da9bc7d8af978adde9fcac4defcaf7c9a5bae9e63",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://60ec93c2658637e71bafd3349de8969abccaed065106432564d8084a4eb405b4",
+				"dweb:/ipfs/QmUV35wytnfSCEBeS36hJBAvf8YedSj8tS7yMANkjwFP1Q"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "isEven",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CheckEvenOdd.sol": "CheckEvenOdd"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CheckEvenOdd.sol": {
+			"keccak256": "0xb3565d708881ba3012fdd50bceda0398d05ce12bde8b5c07688238f54d9ac1b8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0449ae8f17c8679d269c14c73a618de47456e3da7bf5fa80aad45b070b99d03a",
+				"dweb:/ipfs/QmbCGyJieEJsSCL8vD31BChcBjBavV4cMUzg2twEQ5QU9W"
+			]
+		}
+	},
+	"version": 1
+}

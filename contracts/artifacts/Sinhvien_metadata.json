@@ -1,0 +1,175 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Gioitinh",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Hien",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "HienThiSV",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Hoten",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Hoten",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Gioitinh",
+						"type": "string"
+					}
+				],
+				"name": "Nhap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Hoten",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Gioitinh",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_TenLop",
+						"type": "string"
+					}
+				],
+				"name": "Nhap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TenLop",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Sinhvien.sol": "Sinhvien"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Nguoi.sol": {
+			"keccak256": "0x3e873fe9143ac383c0cdfd136abccc563eed04648d6f0bd4a9563bb83648b2d8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9fa80bcd3339ea6a15164124e18aa5d0ea754b076e6eae1dbad94a0bc255b08b",
+				"dweb:/ipfs/QmNvaeEtb7gpb4kp6tbiZvNzUDRR6uFKARyW2eVcMD2YZ8"
+			]
+		},
+		"contracts/Sinhvien.sol": {
+			"keccak256": "0x39c07e079a75f06389c2a19402b9574e01dc0846d6f207adc0172210379dc889",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://eb8d410502e359942dda7201602c8cfeaee3e44f8f3f91098ad49bb0215876b6",
+				"dweb:/ipfs/QmWpMw5RjRifjvQST5vp1ntF6Qrjyetd6Sq9akm68Qq1p2"
+			]
+		}
+	},
+	"version": 1
+}

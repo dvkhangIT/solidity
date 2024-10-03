@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Gioitinh",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Hien",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Hoten",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Hoten",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Gioitinh",
+						"type": "string"
+					}
+				],
+				"name": "Nhap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Sinhvien.sol": "Nguoi"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Sinhvien.sol": {
+			"keccak256": "0x3e873fe9143ac383c0cdfd136abccc563eed04648d6f0bd4a9563bb83648b2d8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9fa80bcd3339ea6a15164124e18aa5d0ea754b076e6eae1dbad94a0bc255b08b",
+				"dweb:/ipfs/QmNvaeEtb7gpb4kp6tbiZvNzUDRR6uFKARyW2eVcMD2YZ8"
+			]
+		}
+	},
+	"version": 1
+}

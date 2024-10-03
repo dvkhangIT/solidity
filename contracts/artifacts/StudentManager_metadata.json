@@ -1,0 +1,518 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_gender",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mathScore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_physicsScore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_chemistryScore",
+						"type": "uint256"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllStudents",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "gender",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "mathScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "physicsScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "chemistryScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "gpa",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "academicPerformance",
+								"type": "string"
+							}
+						],
+						"internalType": "struct StudentManager.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "searchStudentByName",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "gender",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "mathScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "physicsScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "chemistryScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "gpa",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "academicPerformance",
+								"type": "string"
+							}
+						],
+						"internalType": "struct StudentManager.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sortStudentsByGPA",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "gender",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "mathScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "physicsScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "chemistryScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "gpa",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "academicPerformance",
+								"type": "string"
+							}
+						],
+						"internalType": "struct StudentManager.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sortStudentsByID",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "gender",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "mathScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "physicsScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "chemistryScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "gpa",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "academicPerformance",
+								"type": "string"
+							}
+						],
+						"internalType": "struct StudentManager.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sortStudentsByName",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "gender",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "mathScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "physicsScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "chemistryScore",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "gpa",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "academicPerformance",
+								"type": "string"
+							}
+						],
+						"internalType": "struct StudentManager.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "studentCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "gender",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mathScore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "physicsScore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "chemistryScore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gpa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "academicPerformance",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_gender",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mathScore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_physicsScore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_chemistryScore",
+						"type": "uint256"
+					}
+				],
+				"name": "updateStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StudentManager.sol": "StudentManager"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StudentManager.sol": {
+			"keccak256": "0x51c86fcebb6f5c9e6d9ffca0616a466225694648a00b39d100695b812e5df9fa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4d489278a453aec19d27998951c93d271a9ebc38e828c8c1f02e5af728bd8d2d",
+				"dweb:/ipfs/QmT6FvXpD5bhotpqeFKVaBnWW7wVmQvJFRQn7qpasYdt35"
+			]
+		}
+	},
+	"version": 1
+}
